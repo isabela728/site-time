@@ -22,6 +22,7 @@ nav{
     justify-content: space-between;
     background-color: #000000;
     margin: 40px;  
+    border-radius: 20px;
 }
 
 .noticia{
@@ -42,4 +43,21 @@ footer{
     text-align: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#escalacao{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+    border-radius: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jogadores{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_jogador{
+    height: 80px;
 }
