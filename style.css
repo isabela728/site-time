@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background-color: rgb(121, 3, 23);
 }
 
 nav{
@@ -12,5 +13,33 @@ nav{
     justify-content: space-around;
     background-color: #ca0909;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
+#noticias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000000;
+    margin: 40px;  
+}
+
+.noticia{
+    background-color: #af0a0a;
+    border: 5px solid white;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img_noticia{
+    height: 150px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
