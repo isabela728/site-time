@@ -55,9 +55,22 @@ footer{
 
 .jogadores{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.jogador{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .img_jogador{
-    height: 80px;
+    height: 90px;
+}
+
+#mascote{
+    height: 220px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
 }
